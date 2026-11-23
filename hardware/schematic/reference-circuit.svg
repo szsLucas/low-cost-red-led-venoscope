@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="650" viewBox="0 0 1700 650" role="img" aria-label="Conceptual recommended 12 branch red LED circuit, not an as-built schematic">
+<rect width="1700" height="650" fill="#fff"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937}.title{font-size:29px;font-weight:bold}.small{font-size:18px}.tiny{font-size:14px}.wire{fill:none;stroke:#243b53;stroke-width:4;stroke-linejoin:round}.branch{fill:none;stroke:#243b53;stroke-width:3}.res{fill:#eef2ff;stroke:#334155;stroke-width:2}.led{fill:#fee2e2;stroke:#d32f2f;stroke-width:3}.node{fill:#243b53}
+</style>
+<text x="45" y="45" class="title">12-LED reference circuit — functional diagram</text>
+<text x="45" y="73" class="small" fill="#a21caf">NOT an as-built PCB schematic; topology recommended in the manuscript</text>
+<rect x="40" y="185" width="124" height="140" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+<text x="102" y="222" text-anchor="middle" class="small">Battery</text>
+<text x="102" y="249" text-anchor="middle" class="small">4 × 1.5 V</text>
+<text x="102" y="276" text-anchor="middle" class="small">≈ 6 V</text>
+<text x="102" y="302" text-anchor="middle" class="tiny">nominal</text>
+<path class="wire" d="M102 185 V132 H208"/>
+<rect x="208" y="105" width="145" height="54" rx="8" class="res"/>
+<text x="280" y="127" text-anchor="middle" class="small">S1</text>
+<text x="280" y="149" text-anchor="middle" class="tiny">ON / OFF</text>
+<path class="wire" d="M353 132 H390"/>
+<rect x="390" y="105" width="218" height="54" rx="8" class="res"/>
+<text x="499" y="127" text-anchor="middle" class="small">RP1 = 1 kΩ</text>
+<text x="499" y="149" text-anchor="middle" class="tiny">common rheostat</text>
+<path class="wire" d="M608 132 H1610 V230"/>
+<path class="wire" d="M102 325 V550 H1565"/>
+<text x="125" y="119" class="small">+6 V</text>
+<text x="112" y="543" class="small">0 V return</text>
+<path class="wire" d="M300 230 H1610"/>
+<text x="890" y="203" text-anchor="middle" class="small">12 parallel, identical LED branches</text>
+
+<path class="branch" d="M300 230 V294 M300 338 V415 M300 457 V550"/>
+<circle class="node" cx="300" cy="230" r="5"/>
+<circle class="node" cx="300" cy="550" r="5"/>
+<rect class="res" x="263" y="294" width="74" height="44" rx="4"/>
+<text x="300" y="312" class="tiny" text-anchor="middle">R1</text>
+<text x="300" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="300" cy="436" r="24"/>
+<text x="300" y="442" class="tiny" text-anchor="middle">D1</text>
+<path class="branch" d="M415 230 V294 M415 338 V415 M415 457 V550"/>
+<circle class="node" cx="415" cy="230" r="5"/>
+<circle class="node" cx="415" cy="550" r="5"/>
+<rect class="res" x="378" y="294" width="74" height="44" rx="4"/>
+<text x="415" y="312" class="tiny" text-anchor="middle">R2</text>
+<text x="415" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="415" cy="436" r="24"/>
+<text x="415" y="442" class="tiny" text-anchor="middle">D2</text>
+<path class="branch" d="M530 230 V294 M530 338 V415 M530 457 V550"/>
+<circle class="node" cx="530" cy="230" r="5"/>
+<circle class="node" cx="530" cy="550" r="5"/>
+<rect class="res" x="493" y="294" width="74" height="44" rx="4"/>
+<text x="530" y="312" class="tiny" text-anchor="middle">R3</text>
+<text x="530" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="530" cy="436" r="24"/>
+<text x="530" y="442" class="tiny" text-anchor="middle">D3</text>
+<path class="branch" d="M645 230 V294 M645 338 V415 M645 457 V550"/>
+<circle class="node" cx="645" cy="230" r="5"/>
+<circle class="node" cx="645" cy="550" r="5"/>
+<rect class="res" x="608" y="294" width="74" height="44" rx="4"/>
+<text x="645" y="312" class="tiny" text-anchor="middle">R4</text>
+<text x="645" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="645" cy="436" r="24"/>
+<text x="645" y="442" class="tiny" text-anchor="middle">D4</text>
+<path class="branch" d="M760 230 V294 M760 338 V415 M760 457 V550"/>
+<circle class="node" cx="760" cy="230" r="5"/>
+<circle class="node" cx="760" cy="550" r="5"/>
+<rect class="res" x="723" y="294" width="74" height="44" rx="4"/>
+<text x="760" y="312" class="tiny" text-anchor="middle">R5</text>
+<text x="760" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="760" cy="436" r="24"/>
+<text x="760" y="442" class="tiny" text-anchor="middle">D5</text>
+<path class="branch" d="M875 230 V294 M875 338 V415 M875 457 V550"/>
+<circle class="node" cx="875" cy="230" r="5"/>
+<circle class="node" cx="875" cy="550" r="5"/>
+<rect class="res" x="838" y="294" width="74" height="44" rx="4"/>
+<text x="875" y="312" class="tiny" text-anchor="middle">R6</text>
+<text x="875" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="875" cy="436" r="24"/>
+<text x="875" y="442" class="tiny" text-anchor="middle">D6</text>
+<path class="branch" d="M990 230 V294 M990 338 V415 M990 457 V550"/>
+<circle class="node" cx="990" cy="230" r="5"/>
+<circle class="node" cx="990" cy="550" r="5"/>
+<rect class="res" x="953" y="294" width="74" height="44" rx="4"/>
+<text x="990" y="312" class="tiny" text-anchor="middle">R7</text>
+<text x="990" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="990" cy="436" r="24"/>
+<text x="990" y="442" class="tiny" text-anchor="middle">D7</text>
+<path class="branch" d="M1105 230 V294 M1105 338 V415 M1105 457 V550"/>
+<circle class="node" cx="1105" cy="230" r="5"/>
+<circle class="node" cx="1105" cy="550" r="5"/>
+<rect class="res" x="1068" y="294" width="74" height="44" rx="4"/>
+<text x="1105" y="312" class="tiny" text-anchor="middle">R8</text>
+<text x="1105" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="1105" cy="436" r="24"/>
+<text x="1105" y="442" class="tiny" text-anchor="middle">D8</text>
+<path class="branch" d="M1220 230 V294 M1220 338 V415 M1220 457 V550"/>
+<circle class="node" cx="1220" cy="230" r="5"/>
+<circle class="node" cx="1220" cy="550" r="5"/>
+<rect class="res" x="1183" y="294" width="74" height="44" rx="4"/>
+<text x="1220" y="312" class="tiny" text-anchor="middle">R9</text>
+<text x="1220" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="1220" cy="436" r="24"/>
+<text x="1220" y="442" class="tiny" text-anchor="middle">D9</text>
+<path class="branch" d="M1335 230 V294 M1335 338 V415 M1335 457 V550"/>
+<circle class="node" cx="1335" cy="230" r="5"/>
+<circle class="node" cx="1335" cy="550" r="5"/>
+<rect class="res" x="1298" y="294" width="74" height="44" rx="4"/>
+<text x="1335" y="312" class="tiny" text-anchor="middle">R10</text>
+<text x="1335" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="1335" cy="436" r="24"/>
+<text x="1335" y="442" class="tiny" text-anchor="middle">D10</text>
+<path class="branch" d="M1450 230 V294 M1450 338 V415 M1450 457 V550"/>
+<circle class="node" cx="1450" cy="230" r="5"/>
+<circle class="node" cx="1450" cy="550" r="5"/>
+<rect class="res" x="1413" y="294" width="74" height="44" rx="4"/>
+<text x="1450" y="312" class="tiny" text-anchor="middle">R11</text>
+<text x="1450" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="1450" cy="436" r="24"/>
+<text x="1450" y="442" class="tiny" text-anchor="middle">D11</text>
+<path class="branch" d="M1565 230 V294 M1565 338 V415 M1565 457 V550"/>
+<circle class="node" cx="1565" cy="230" r="5"/>
+<circle class="node" cx="1565" cy="550" r="5"/>
+<rect class="res" x="1528" y="294" width="74" height="44" rx="4"/>
+<text x="1565" y="312" class="tiny" text-anchor="middle">R12</text>
+<text x="1565" y="330" class="tiny" text-anchor="middle">220 Ω</text>
+<circle class="led" cx="1565" cy="436" r="24"/>
+<text x="1565" y="442" class="tiny" text-anchor="middle">D12</text>
+<text x="850" y="606" class="small" text-anchor="middle">Every LED has its own current-limiting resistor. Confirm the physical connections and component ratings before any rebuild.</text>
+</svg>

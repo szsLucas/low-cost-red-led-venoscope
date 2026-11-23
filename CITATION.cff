@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the authors and the original manuscript when referencing this educational prototype.
+type: generic
+title: "Desenvolvimento e Caracterização Preliminar de um Venoscópio Portátil de Baixo Custo com LEDs Vermelhos"
+authors:
+  - family-names: de Abreu
+    given-names: Evellyn
+    orcid: "https://orcid.org/0009-0009-8709-1542"
+  - family-names: Silva Souza
+    given-names: Lucas
+    orcid: "https://orcid.org/0009-0008-6328-7826"
+  - family-names: Henrique Cruz
+    given-names: Matheus
+    orcid: "https://orcid.org/0009-0001-3356-7199"
+abstract: >-
+  Educational and preliminary low-cost red LED venoscope prototype with
+  a qualitative study and an analytical optical model. Not clinically validated.

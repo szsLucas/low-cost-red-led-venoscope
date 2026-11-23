@@ -1,0 +1,9 @@
+ref,component,nominal_value_or_description,quantity,status,notes
+D1-D12,Red LED,5 mm visible red approximately 630 nm,12,described LED count; part unknown,Wavelength and Vf=2.2 V assumed for modeling; verify physical parts
+R1-R12,Resistor,220 ohm 0.25 W each,12,recommended reference design,Actual installed values and topology must be measured
+RP1,Potentiometer,1 kohm rheostat rated at least 0.5 W,1,potentiometer described; wattage recommended,Verify fitted device rating and terminal wiring
+S1,On/off switch,Single pole power switch,1,described,Switch manufacturer and model missing
+BT1,Battery holder,4 cells 1.5 V in series (6 V nominal),1,described supply; holder unknown,Verify polarity and operating voltage range
+BAT,Primary cells,1.5 V,4,described,Exact chemistry and runtime not characterized
+PCB1,Copper circuit board,Manually etched with FeCl3,1,described,Actual schematic and fabrication files missing
+CASE,3D printed enclosure,Tinkercad two-part housing,1,described,Dimensions STL and source project missing
